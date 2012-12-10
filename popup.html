@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data Clearer Popup</title>
+<link href="popup.css" rel="stylesheet">
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+	<h1>Data Clearer</h1>
+	<div id="form">
+		<table>    
+        <tr>
+	    	<td>
+        		<label><input type="checkbox" name="data" value="startclear" id="startclear">Clear All But Passwords on Startup</label>
+        		<label style="display:none;"><input style="display:none;" type="checkbox" name="data" value="closeclear" id="closeclear">Clear All But Passwords on Close</label>
+			</td>
+            </tr>
+		</table>
+		<table>	
+        <tr>
+      		<td>
+            	<button id="save">Save Options</button>
+            </td>
+            </tr>
+		</table>
+		<table>    
+        <tr>
+	    	<td>
+            	<button id="button">Clear</button>
+            </td>
+            </tr>
+		</table>
+	</div>
+</body>
+</html>
